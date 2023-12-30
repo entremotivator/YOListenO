@@ -118,7 +118,7 @@ if file is not None:
                 # Every form must have a submit button.
                 submitted = st.form_submit_button("Submit Additional Settings")
 
-    convert_bt = st.button("Start YOListenO!")
+    convert_bt = st.button("Start AIVAHM!")
     if convert_bt:
         
         if not apikey:
@@ -197,7 +197,7 @@ with st.expander("About AI VA CEO"):
         st.image("./images/notebook_logo_transparent.png")
 
     about = """
-    **[AIVAHM (You Only Listen Once)](https://github.com/teyang-lau/YOListenO)** is an AI tool making use of OpenAI's 
+    **[AIVAHM (Artificial Intelligence Veteran Administration Health Machine)](https://github.com/teyang-lau/YOListenO)** is an AI tool making use of OpenAI's 
     [Whisper](https://github.com/openai/whisper) and [GPT3.5](https://platform.openai.com/docs/guides/chat)
     for turning audio/video lectures/meetings into markdown notes.
     
