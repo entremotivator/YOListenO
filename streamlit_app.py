@@ -20,7 +20,7 @@ with st.expander("How to Use AI VA HM"):
     2. Choose between generating lecture notes or meeting summaries.
     3. (Optional): Fine-tune settings for a more customized output, adjusting advanced options in each tab.
     4. (Optional): Use your own OpenAI API key for higher usage limits under advanced settings.
-    5. Click 'Start YOListenO' and witness the magic unfold as we transform your content into concise, valuable insights!"
+    5. Click 'Start AIVACEO' and witness the magic unfold as we transform your content into concise, valuable insights!"
     
     Note: Sometimes OpenAI's server might be busy, which might cause an error. Simply try again after a while!
     """
