@@ -16,11 +16,11 @@ with col:
 
 with st.expander("How to Use YOListenO"):
     instruct = """
-    1. Upload a lecture/meeting audio or video file
-    2. Select whether you want the output as a lecture or meeting note
-    3. (Optional): Adjust advanced settings for better fine-tuning and click "Submit" for each adjusted tab
-    4. (Optional): Use your own OpenAI api key under advanced settings as the default has a limit
-    5. Click "Start YOListenO" and let the magic begin! 
+    1. Upload your medical lecture or meeting audio/video file.
+    2. Choose between generating lecture notes or meeting summaries.
+    3. (Optional): Fine-tune settings for a more customized output, adjusting advanced options in each tab.
+    4. (Optional): Use your own OpenAI API key for higher usage limits under advanced settings.
+    5. Click 'Start YOListenO' and witness the magic unfold as we transform your content into concise, valuable insights!"
     
     Note: Sometimes OpenAI's server might be busy, which might cause an error. Simply try again after a while!
     """
