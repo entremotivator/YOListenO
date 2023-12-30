@@ -14,7 +14,7 @@ __, col, __ = st.columns([1, 3, 1])
 with col:
     st.image("./images/notebook_logo_transparent.png")
 
-with st.expander("How to Use YOListenO"):
+with st.expander("How to Use AI VA HM"):
     instruct = """
     1. Upload your medical lecture or meeting audio/video file.
     2. Choose between generating lecture notes or meeting summaries.
@@ -126,7 +126,7 @@ if file is not None:
             apikey = st.secrets["API_KEY"]
 
         # transcribe
-        with st.spinner(text="YOListenO working its magic: Transcribing..."):
+        with st.spinner(text="AI VA CEO is working: Transcribing..."):
             transcript = wtranscribe(
                 model='base',
                 audio=file_path,
@@ -138,7 +138,7 @@ if file is not None:
         tokens = re.findall(r"[\w']+|[.,!?;]", transcript)
         if len(tokens) > transcript_max_token_len:
             # break into smaller chunks, summarize each chunk, and merge back together
-            with st.spinner(text="YOListenO working its magic: Chunking & Summarizing..."):
+            with st.spinner(text="AI VA CEO is working: Chunking & Summarizing..."):
                 # perform chunking
                 chunks = break_chunks(tokens, [".", ",", "!", "?", ";"], 700, 1100)
                 # summarise each chunk
@@ -191,18 +191,18 @@ if file is not None:
             st.text(result)
 
 
-with st.expander("About YOListenO"):
+with st.expander("About AI VA CEO"):
     __, col2, __ = st.columns([1, 1, 1])
     with col2:
         st.image("./images/notebook_logo_transparent.png")
 
     about = """
-    **[YOListenO (You Only Listen Once)](https://github.com/teyang-lau/YOListenO)** is an AI tool making use of OpenAI's 
+    **[AIVAHM (You Only Listen Once)](https://github.com/teyang-lau/YOListenO)** is an AI tool making use of OpenAI's 
     [Whisper](https://github.com/openai/whisper) and [GPT3.5](https://platform.openai.com/docs/guides/chat)
     for turning audio/video lectures/meetings into markdown notes.
     
     **Created by:**
-    * LAU TeYang
+    * Entremotivator
     """
     st.write(about)
     st.write("")
