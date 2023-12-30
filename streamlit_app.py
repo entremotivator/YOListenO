@@ -12,7 +12,7 @@ temp_path = temp_dir.name
 
 __, col, __ = st.columns([1, 3, 1])
 with col:
-    st.image("./images/notebook_logo_transparent.png")
+    st.image("Firefly AI VA HM-medic doctor white coat stecope 11113.png")
 
 with st.expander("How to Use AI VA HM"):
     instruct = """
@@ -194,7 +194,7 @@ if file is not None:
 with st.expander("About AI VA CEO"):
     __, col2, __ = st.columns([1, 1, 1])
     with col2:
-        st.image("./images/notebook_logo_transparent.png")
+        st.image("Firefly AI VA HM-medic doctor white coat stecope 11113.png")
 
     about = """
     **[AIVAHM (Artificial Intelligence Veteran Administration Health Machine)](https://github.com/teyang-lau/YOListenO)** is an AI tool making use of OpenAI's 
